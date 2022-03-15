@@ -45,15 +45,15 @@ html{
     background-color: rgba(0, 0, 0, 0.2);
 }
 #home::before{
-    background : url("sajid.jpg") no-repeat center center/cover;
+    content: "";
+    background : url("front.jpg") no-repeat center center/cover;
     position: absolute;
     height: 865px;
     width: 100%;
-    content: "";
     top: 0;
     right: 0;
     z-index: -1;
-    opacity: 1;
+    opacity: .8;
 }
 .main{
     display: flex;
